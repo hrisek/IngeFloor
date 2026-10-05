@@ -1,1 +1,43 @@
+# Copy this file to extensions/<id>.toml and fill it in.
+# Copia este archivo a extensions/<id>.toml y rellénalo.
+# Copie este arquivo para extensions/<id>.toml e preencha.
 
+# Same as the file name: lowercase letters, digits and _.
+id = "my_extension"
+version = "1.0"
+author = "Your Name"
+# author_url = "https://github.com/hrisek"            # optional
+
+# SPDX name of a free licence: MIT, GPL-3.0-or-later, Apache-2.0, BSD-3-Clause…
+license = "GPL-3.0-or-later"
+
+# Where people read your code.
+repository = "https://github.com/hrisek/IngeFloor"
+
+# The exact file IngeTrazo users will install: a .py file, or a .zip holding
+# ONE folder with an __init__.py. Use a TAG or a COMMIT in the address, not
+# «main»: what is reviewed must not change afterwards.
+download = "https://github.com/hrisek/IngeFloor/archive/refs/tags/1.0.zip"
+# sha256sum my_extension.py      (Windows: certutil -hashfile my_extension.py SHA256)
+# If it is wrong, the check tells you the right one.
+sha256 = "c9be9a7a2fc99434ca96024c7defa3f0745de95ea1808f82aa28b5bba025e682"
+
+# The IngeTrazo version you tested with.
+ingetrazo = "0.5.7"
+
+# 1 to 4 of: architecture, bim, structures, terrain, drawing, analysis,
+# import-export, rendering, fabrication, productivity, education, other
+tags = ["architecture"]
+
+# Optional: a picture in screenshots/ (png, jpg or webp, under 600 KB, ~1200×750).
+screenshot = "IngeFloor.jpg"
+
+# At least Spanish OR English. Portuguese is welcome. Machine translation is
+# fine — the page shows the visitor's language when it is there.
+[name]
+en = "IngeFloor"
+
+[summary]   # one or two sentences, up to 240 characters
+es = "Generador procedimental de patrones de suelos de madera."
+en = "Procedural woodboard floor patterns generator."
+pt = "Gerador procedimental de padrões de pavimento de madeira."
