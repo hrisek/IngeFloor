@@ -3,9 +3,9 @@
 # Copie este arquivo para extensions/<id>.toml e preencha.
 
 # Same as the file name: lowercase letters, digits and _.
-id = "my_extension"
+id = "IngeFloor"
 version = "1.0"
-author = "Your Name"
+author = "Hris"
 # author_url = "https://github.com/hrisek"            # optional
 
 # SPDX name of a free licence: MIT, GPL-3.0-or-later, Apache-2.0, BSD-3-Clause…
