@@ -3,7 +3,7 @@
 # Copie este arquivo para extensions/<id>.toml e preencha.
 
 # Same as the file name: lowercase letters, digits and _.
-id = "IngeFloor"
+id = "ingefloor"
 version = "1.0"
 author = "Hris"
 # author_url = "https://github.com/hrisek"            # optional
